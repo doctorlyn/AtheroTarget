@@ -1,0 +1,30 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# renv：忽略库本体，保留 lockfile
+renv/library/
+renv/staging/
+renv/.cache/
+
+# Shiny 临时/缓存
+rsconnect/
+*.Rout
+*.utf8.md
+*.knit.md
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 环境变量 & 密钥
+.Renviron
+*.key
+*.pem
+
+# 大文件（示例）
+data_raw/
+outputs/
